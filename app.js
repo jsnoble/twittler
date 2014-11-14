@@ -7,7 +7,7 @@
      function addtwit(item) {
 
          var $tweet = $('<div></div>');
-         $tweet.text('@' + item.user + ': ' + item.message);
+         $tweet.text('@' + item.user + ': ' + item.message +"   time: " + item.created_at);
          $tweet.appendTo($article);
          ind += 1
      }
